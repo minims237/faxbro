@@ -1,0 +1,17 @@
+.topbar{
+    background-color: #445760;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30vh;
+}
+.topbar h1{
+    font-weight: 200;
+    color: #fff;
+    font-size: 25px;
+}

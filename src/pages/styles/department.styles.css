@@ -1,0 +1,27 @@
+.department{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin-top: 15vh;
+    width: 100vh;
+}
+.aBtn{
+    background-color: #445760;
+    color: #fff;
+    font-size: larger;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 150px;
+    
+}
+.aBtn:hover{
+    background-color: #445760; 
+    color: #fff;
+}
+.aBtn span{
+    font-size: 20px;
+   
+}

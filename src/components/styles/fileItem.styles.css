@@ -1,0 +1,10 @@
+.fItem{
+    display: flex;
+    flex-direction: row;
+}
+.fItem a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
