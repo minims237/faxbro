@@ -1,9 +1,7 @@
-.App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.app{
+  background-color:#f1f5f9;
   min-height: 100vh;
-  background-color: #f1f5f9;
-  min-width: 100%;
+  font-family: Inter,sans-serif;
+  display: flex;
+  align-items: center;
 }
-

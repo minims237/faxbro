@@ -2,7 +2,6 @@ import React from "react"
 import pdf from '../assets/img/pdf.png'
 import './styles/fileItem.styles.css'
 const FileItem=(props:any)=>{
-    
     return(
         <div className="fItem">
             

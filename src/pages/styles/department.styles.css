@@ -2,26 +2,60 @@
     display: flex;
     flex-direction: column;
     height: 80vh;
-    margin-top: 15vh;
-    width: 100vh;
-}
-.aBtn{
-    background-color: #445760;
-    color: #fff;
-    font-size: larger;
-    font-weight: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    width: 150px;
+    padding:10vh 15vh;
+    min-width: 100%;
+    background-color: #f1f5f9;
     
 }
-.aBtn:hover{
-    background-color: #445760; 
-    color: #fff;
+.department h1{
+    color: #000;
+    font-weight: 700;
 }
-.aBtn span{
-    font-size: 20px;
+.department h3{
+    color: #235365;
+    font-weight: 700;
+}
+.dtxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.slt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+}
+.slt h4{
+    color: #b1b1b1;
+    font-weight:bold;
+    font-size: medium;
+}
+.slt_item{
+    min-width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 10px;
+}
+th{
+    color: #b1b1b1;
+}
+table{
+    min-width: 100%;
+}
+td{
+    margin: 12px 0px;
+
+}
+.dtxt button{
+    background-color: #235365;
+    color: #fff;
    
+}
+.department_item tbody{
+    background-color: #000;
 }
